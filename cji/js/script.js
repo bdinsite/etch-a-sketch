@@ -34,5 +34,8 @@ colorDivs.forEach((div) => {
 });
 
 function changeColor(evt){
-    evt.target.style.backgroundColor = 'black';
+    let r = (Math.floor(Math.random()*256));
+    let g = (Math.floor(Math.random()*256));
+    let b = (Math.floor(Math.random()*256));
+    evt.target.style.backgroundColor = `rgb(${r},${g},${b})`;
 }
