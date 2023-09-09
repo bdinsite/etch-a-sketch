@@ -25,3 +25,14 @@ for(let i = 0; i < canvasSize; i++){
         rowDiv.appendChild(colDiv);
     }
 }
+
+// ADD MOUSEOVER COLORS
+const colorDivs = document.querySelectorAll('.col');
+
+colorDivs.forEach((div) => {
+    div.addEventListener('mouseover', changeColor);
+});
+
+function changeColor(evt){
+    evt.target.style.backgroundColor = 'black';
+}
