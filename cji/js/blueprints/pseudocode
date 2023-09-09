@@ -1,0 +1,6 @@
+1. Create canvas 16x16 with divs
+2. Add color to canvas on mouseover
+3. Create input and button for canvas resize
+4. Store user input in variable
+5. On resize, delete old canvas and create new
+6. Make mouseover generate random colors
