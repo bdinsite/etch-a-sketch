@@ -1,5 +1,5 @@
-<header> <input field, possible a slider> <resize button> </header>
+header          input field     value field         button          header-end
 
-<main>  <canvas>  </main>
+main          canvas  canvas  canvas  canvas  canvas  canvas          main-end
 
-<footer> Copyright text and stuff </footer>
+footer                      Copyright and stuff                     footer-end
